@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<th><img src=" /media/login.jpg " width="200"> <br/></th>
+
+{% if error %}
+    <p>User not found</p>
+{% endif %}
+
+{% if not request.user.is_authenticated %}
+    <div style='margin-top:30px;'>
+        <form method='POST'>{% csrf_token %}
+            {{ form.as_p }}
+            <button type='submit'>Login</button>
+
+        </form>
+
+        <p>Need an account? Please regiter</p>
+        <a class="btn btn-primary" href="{% url 'register' %}" role="button">Register </a>
+
+    </div>
+{% else %}
+<p>You're already logged in. Would you like to <a href='/accounts/logout/'>logout</a>?</p>
+{% endif %}
+
+{% endblock %}

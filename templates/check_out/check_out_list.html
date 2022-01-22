@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="row">
+    <hr>
+    <h2><b> CHECKOUT PAGE </b></h2>
+    <hr>
+    <div class="col-lg-6">
+        <div class="box-element" id="form-wrapper">
+            <hr>
+            <h3>User Information:</h3>
+            <hr>
+            <form id="form">
+                <div id="user-info">
+                    <div class="form-field">
+                        <input required class="form-control" type="text" name="name" placeholder="Name..">
+                    </div>
+                    <div class="form-field">
+                        <input required class="form-control" type="email" name="email" placeholder="Email..">
+                    </div>
+                </div>
+
+                <div id="shipping-info">
+                    <hr>
+                    <h3>Shipping Information:</h3>
+                    <hr>
+                    <div class="form-field">
+                        <input class="form-control" type="text" name="address" placeholder="Address..">
+                    </div>
+                    <div class="form-field">
+                        <input class="form-control" type="text" name="city" placeholder="City..">
+                    </div>
+                    <div class="form-field">
+                        <input class="form-control" type="text" name="state" placeholder="State..">
+                    </div>
+                    <div class="form-field">
+                        <input class="form-control" type="text" name="zipcode" placeholder="Zip code..">
+                    </div>
+                    <div class="form-field">
+                        <input class="form-control" type="text" name="country" placeholder="Zip code..">
+                    </div>
+                </div>
+
+                <hr>
+                <input id="form-button" class="btn btn-outline-success " type="submit" value="Continue">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="col-lg-6">
+        <div class="box-element">
+
+            <hr>
+            <h3>Order Summary:</h3>
+            <hr>
+
+            <table class="table" id="display-checkout">
+            </table>
+
+            <h5>You have <span id='cart-items'></span> items in your shopping cart</h5>
+            <h5>Total cost of the shopping cart:  <span id='cart-total'></span> €</h5>
+
+            <a  class="btn btn-outline-primary" href="/shopping_cart/list">&#x2190 Back to Cart</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript" src="{% static 'js/checkout.js' %}"></script>
+{% endblock %}

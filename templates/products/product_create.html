@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<th><img src=" /media/factory.ico " width="150"> <br/></th>
+    <p><b> PRODUCT CREATE PAGE </b></p><br/>
+
+    <form enctype="multipart/form-data" method="post"> {% csrf_token %}
+        {{ form.as_p }}
+
+        <button class="btn btn-primary" type="submit" value="Create"> Create </button>
+
+    </form>
+{% endblock %}

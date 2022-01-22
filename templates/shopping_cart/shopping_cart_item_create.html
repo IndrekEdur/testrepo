@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<th><img src="{{ product.image.url }}" width="200"> <br/></th>
+    <p><b> ADD SHOPPING CART ITEM </b></p><br/>
+    <p>{{ product.name }}</p><br/>
+    <form enctype="multipart/form-data" method="post"> {% csrf_token %}
+        {{ form.as_p }}
+
+        <button class="btn btn-primary" type="submit" value="Create"> Add </button>
+        <a class="btn btn-danger" href="{% url 'product_list' %}" role="button">Back </a>
+    </form>
+{% endblock %}
