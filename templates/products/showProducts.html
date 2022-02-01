@@ -17,22 +17,22 @@
             {% for product in products %}
 
                 <div class="col-md-3">
-                    <div class="card m-3 p-3" style="width: 18rem; height: 33rem; box-shadow: 4px 4px #c291fa; border-radius: 25px 15px;">
+                    <div class="card m-3 p-3" style="width: 18rem; height: 35rem; box-shadow: 4px 4px #c291fa; border-radius: 25px 15px;">
                         <img src="{{ product.image.url }}" style="height: 300px; width: 200px;"  class="card-img-top product" alt="...">
                         <div class="card-body">
                             <h4 style="font-size: 17px;" class="card-title mt-1">{{ product.name }}</h4>
-                            <h3 style="color: rgb(16, 52, 107)" class="card-subtitle mt-1">{{ product.price }} €</h3>
+                            <h3 style="color: rgb(16, 52, 107)" class="card-subtitle mt-1">{{ product.hours }} h</h3>
                             <hr>
-                            <p style="font-size: 13px;" class="btn btn-warning"><b>{{ product.category.name }}</b></p>
+                            <p style="font-size: 13px;" class="btn btn-warning"><b>{{ product.Project.name }}</b></p>
                             <p style="font-size: 13px;" class="cart-text mt-1">{{ product.created_at }}</p>                
                         </div>
                         <span>
                             <td><button data-pk="{{ product.pk }}"
-                                data-price="{{ product.price }}"
+                                data-hours="{{ product.hours }}"
                                 data-name="{{ product.name }}"
                                 data-image="/media/{{product.image}}"
-                                data-category="{{ product.category.name }}"
-                                class="btn btn-outline-success add-to-cart">Add to cart
+                                data-Project="{{ product.Project.name }}"
+                                class="btn btn-outline-success add-to-cart">Done
                             </button></td>
                             <a href="{% url 'product' product.pk  %}" style="background-color: #5707b3;" class="btn btn-primary m-1">Detail</a>
 
@@ -49,16 +49,16 @@
 
 
 <!--            <div class="col-md-3">-->
-<!--              <h2>Category Filter</h2>-->
+<!--              <h2>Project Filter</h2>-->
 <!--              <br>-->
 <!--              <hr>-->
 <!--              -->
 <!--                  <a class="list-group-item" href="{% url 'showProducts' %}">All</a>-->
 
-<!--                  {% for category in categories %}-->
+<!--                  {% for Project in projects %}-->
 
 <!--                    <li class="list-group-item">-->
-<!--                        <a class="btn btn-primary" href="{% url 'showProducts' %}?category={{ category.name }}">{{ category.name }}</a>-->
+<!--                        <a class="btn btn-primary" href="{% url 'showProducts' %}?Project={{ Project.name }}">{{ Project.name }}</a>-->
 <!--                    </li>-->
 
 <!--                  {% endfor %}-->

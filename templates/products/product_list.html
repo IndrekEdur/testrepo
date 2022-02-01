@@ -12,31 +12,31 @@
         <tr>
             <th>PK</th>
             <th>Name</th>
-            <th style="text-align: right; padding-right: 50px">Price</th>
-            <th>Category</th>
+            <th style="text-align: right; padding-right: 50px">hours</th>
+            <th>Project</th>
             <th>Image</th>
-            <th>Add to Cart</th>
-            <th>Add to Cart1</th>
-            <th>Add to Cart2</th>
+            <th>Done</th>
+            <th>Done1</th>
+            <th>Done2</th>
         </tr>
         {% for product in products %}
 
             <tr>
                 <td>{{ product.pk }}</td>
                 <td><a href="{% url 'product_detail' product.pk %}">{{ product.name }}</a></td>
-                <td style="text-align: right; padding-right: 50px">{{ product.price }} </td>
-                <td>{{ product.category.name }}</td>
+                <td style="text-align: right; padding-right: 50px">{{ product.hours }} </td>
+                <td>{{ product.Project.name }}</td>
                 <td><img src=" /media/{{ product.image }} " width="50" class="product"> <br/></td>
                 <td><button data-pk="{{ product.pk }}"
-                            data-price="{{ product.price }}"
+                            data-hours="{{ product.hours }}"
                             data-name="{{ product.name }}"
                             data-image="/media/{{product.image}}"
-                            data-category="{{ product.category.name }}"
-                            class="btn btn-outline-secondary add-to-cart">Add to cart
+                            data-Project="{{ product.Project.name }}"
+                            class="btn btn-outline-secondary add-to-cart">Done
                 </button></td>
 
-                <td><button class="btn btn-outline-primary add_to_cart" href="{% url 'shopping_cart:shopping_cart_itemAdd' %}" role="button">Add to cart</button></td>
-                <th><a class="btn btn-primary" href="{% url 'shopping_cart:shopping_cart_itemAdd' %}" role="button">Add to cart</a><br/></th>
+                <td><button class="btn btn-outline-primary add_to_cart" href="{% url 'shopping_cart:shopping_cart_itemAdd' %}" role="button">Done</button></td>
+                <th><a class="btn btn-primary" href="{% url 'shopping_cart:shopping_cart_itemAdd' %}" role="button">Done</a><br/></th>
             </tr>
 
         {% endfor %}

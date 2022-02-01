@@ -33,8 +33,8 @@
             <th>added</th>
             <th>Product</th>
             <th>Quantity</th>
-            <th>Price/pcs</th>
-            <th>Price total</th>
+            <th>hours/pcs</th>
+            <th>hours total</th>
 
         </tr>
         {% for shopping_cart_item in shopping_cart_items %}
@@ -46,7 +46,7 @@
                 <td>{{ shopping_cart_item.added_time }}</td>
                 <td>{{ shopping_cart_item.product }}</td>
                 <td>{{ shopping_cart_item.product_quantity }}</td>
-                <td>{{ shopping_cart_item.product_price }}</td>
+                <td>{{ shopping_cart_item.product_hours }}</td>
                 <td>{{ shopping_cart_item.calc_total }}</td>
                 <th><a class="btn btn-danger" href="{% url 'shopping_cart_itemDelete' shopping_cart_item.pk %}" role="button"><img src=" /media/delete.png " width="15"></a><br/></th>
             </tr>
@@ -63,7 +63,7 @@
     <table class="table" id="display-cart">
     </table>
 
-<!--    <p><b> YOUR CURRENT SHOPPING CART TOTAL IS: <a id="cart-total"></a> € </b></p><br/>-->
+<!--    <p><b> YOUR CURRENT SHOPPING CART TOTAL IS: <a id="cart-total"></a> h </b></p><br/>-->
 
 
 

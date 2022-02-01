@@ -4,8 +4,8 @@
              <tr>
              <th>PK</th>
              <th>Name</th>
-             <th>Price</th>
-             <th>Category</th>
+             <th>hours</th>
+             <th>Project</th>
              </tr>
              {% for product in products %}
                  <tr>
@@ -15,8 +15,8 @@
                  {{ product.name }}
                  </a>
                  </td>
-                 <td>{{ product.price }}</td>
-                 <td>{{ product.category.name }}</td>
+                 <td>{{ product.hours }}</td>
+                 <td>{{ product.Project.name }}</td>
                  </tr>
              {% endfor %}
          </table>

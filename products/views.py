@@ -11,7 +11,7 @@ from django.urls import reverse_lazy
 from django.http import JsonResponse
 import json
 
-from . models import Product, Category, Comment
+from . models import Product, Project, Comment
 from . forms import ProductForm, CommentForm
 
 class ProductListView(ListView):
@@ -22,10 +22,10 @@ class ProductListView(ListView):
 @login_required(login_url='accounts/login')
 def ShowAllProducts(request):
 
-    category = request.GET.get('category')
+    project = request.GET.get('project')
 
-    if category == None:
-        products = Product.objects.order_by('-price').filter(is_published=True)
+    if project == None:
+        products = Product.objects.order_by('-hours').filter(is_published=True)
         page_num = request.GET.get("page")
         paginator = Paginator(products, 8)
         try:
@@ -35,13 +35,13 @@ def ShowAllProducts(request):
         except EmptyPage:
             products = paginator.page(paginator.num_pages)
     else:
-        products = Product.objects.filter(category__name=category)
+        products = Product.objects.filter(Project__name=project)
 
-    categories = Category.objects.all()
+    projects = Project.objects.all()
 
     context = {
         'products': products,
-        'categories': categories
+        'projects': projects
      }
 
     return render(request, 'products/showProducts.html', context)
@@ -149,7 +149,7 @@ def searchBar(request):
     if request.method == 'GET':
         query = request.GET.get('query')
         if query:
-            products = Product.objects.filter(price__icontains=query)
+            products = Product.objects.filter(hours__icontains=query)
             return render(request, 'products/searchbar.html', {'products': products})
         else:
             print("No information to show")

@@ -23,8 +23,8 @@
                         <th scope="col">Id</th>
                         <th scope="col">Image</th>
                         <th scope="col">Name</th>
-                        <th scope="col">price</th>
-                        <th scope="col">Category</th>
+                        <th scope="col">hours</th>
+                        <th scope="col">Project</th>
                         <th scope="col">Is_Published</th>
                         <th scope="col">Created At</th>
                       </tr>
@@ -37,8 +37,8 @@
                             <td>{{ product.id }}</td>
                             <td> <img height="80px" width="50px" src="{{ product.image.url }}"/></td>
                             <td>{{ product.name }}</td>
-                            <td>{{ product.price }}</td>
-                            <td>{{ product.category.name }}</td>
+                            <td>{{ product.hours }}</td>
+                            <td>{{ product.Project.name }}</td>
                             <td>{{ product.is_published }}</td>
                             <td>{{ product.created_at }}</td>
                         </tr>

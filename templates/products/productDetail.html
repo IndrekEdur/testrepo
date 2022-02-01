@@ -14,8 +14,8 @@
               <img src="{{ eachProduct.image.url }}" class="card-img-top product" alt="...">
               <div class="card-body">
                   <h5 class="card-title m-1"><b>Name:</b> {{ eachProduct.name }}</h5>
-                  <h4 class="card-subtitle m-1"><b>Price:</b> ${{ eachProduct.price }}</h4>
-                  <p style="font-size: 14px;" class="btn btn-warning m-1 p-1">{{ eachProduct.category.name }}</p>
+                  <h4 class="card-subtitle m-1"><b>hours:</b> {{ eachProduct.hours }}</h4>
+                  <p style="font-size: 14px;" class="btn btn-warning m-1 p-1">{{ eachProduct.Project.name }}</p>
                   <hr>
                   <p style="font-size: 15px;" class="card-text mt-1">Description: {{ eachProduct.description }}</p>
                   <p style="font-size: 13px;" class="cart-text mt-1">added - {{ eachProduct.created_at }}</p>
@@ -75,7 +75,7 @@
         <div id="caption"></div>
     </div>
     <br/>
-    <p><b> OTHER PRODUCTS IN YOUR CURRENT CART </b> </p> <br/>
+    <p><b> DONE JOBS IN YOUR WORK LIST </b> </p> <br/>
 
     <table class="table"  id="display-cart">
 
@@ -95,8 +95,8 @@ $( document ).ready(function() {
         html += "<th>PK</th>";
         html += "<th>Image</th>";
         html += "<th>Name</th>";
-        html += "<th>Price</th>";
-        html += "<th>Category</th>";
+        html += "<th>hours</th>";
+        html += "<th>Project</th>";
         html += "<th>Quantity</th>";
         html += "</tr>";
 	for (product in cart ) {
@@ -104,8 +104,8 @@ $( document ).ready(function() {
 		html += "<td>"+ cart[product].pk+"</td>";
 		html += "<td><img src="+ cart[product].image+" width=50 height=50 class='product'  alt='My image'></td>"
 		html += "<td>"+ cart[product].name+"</td>";
-		html += "<td>"+ cart[product].price+"</td>";
-		html += "<td>"+ cart[product].category+"</td>";
+		html += "<td>"+ cart[product].hours+"</td>";
+		html += "<td>"+ cart[product].Project+"</td>";
 		html += "<td>"+ cart[product].quantity+"</td>";
 		html += "<br/>";
 		html += "</tr>";

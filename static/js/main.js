@@ -30,14 +30,14 @@ $( document ).ready(function() {
         if(cart[idstr]!= undefined) {
 
 			quantity = cart[idstr].quantity
-			price = cart[idstr].price
+			hours = cart[idstr].hours
             cart[idstr].quantity =  quantity + 1;
-            total =  cart[idstr].quantity * parseFloat(price);
+            total =  cart[idstr].quantity * parseFloat(hours);
             cart[idstr].total =  parseFloat(total);
         }
         else {
 			// cart being inititlzied
-            cart[idstr] = {quantity: 1, pk: this.dataset.pk, name: this.dataset.name,price: this.dataset.price,category: this.dataset.category,image:this.dataset.image, total:parseFloat(this.dataset.price)};
+            cart[idstr] = {quantity: 1, pk: this.dataset.pk, name: this.dataset.name,hours: this.dataset.hours,Project: this.dataset.Project,image:this.dataset.image, total:parseFloat(this.dataset.hours)};
         }
 
         console.log(cart)

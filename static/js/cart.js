@@ -6,9 +6,9 @@ $( document ).ready(function() {
         html += "<th style='width: 10%' >Image</th>";
         html += "<th style='width: 20%' >Name</th>";
         html += "<th style='width: 10%; text-align: center' >Quantity</th>";
-        html += "<th style='text-align: right; padding-right: 20px; width: 10%'>Price €</th>";
-        html += "<th style='width: 10%; text-align: center' >Category</th>";
-        html += "<th style='text-align: right; padding-right: 20px'; width: 5%>Total €</th>";
+        html += "<th style='text-align: right; padding-right: 20px; width: 10%'>Hours h</th>";
+        html += "<th style='width: 10%; text-align: center' >Project</th>";
+        html += "<th style='text-align: right; padding-right: 20px'; width: 5%>Total h</th>";
         html += "<th style='width: 20%' >Delete</th>";
         html += "</tr>";
 	for (product in cart ) {
@@ -17,8 +17,8 @@ $( document ).ready(function() {
 		html += "<td style='width: 10%; vertical-align: middle; padding: 1px' ><img src="+ cart[product].image+" height=50 style='padding: 1px' class='product'  alt='My image'></td>"
 		html += "<td style='width: 20%; vertical-align: middle' >"+ cart[product].name+"</td>";
 		html += "<td style='width: 10%; text-align: center; vertical-align: middle' >"+ cart[product].quantity+"</td>";
-		html += "<td style='text-align: right; padding-right: 20px; width: 10%; vertical-align: middle'>"+ cart[product].price+"</td>";
-		html += "<td style='width: 10%; text-align: center; vertical-align: middle' >"+ cart[product].category+"</td>";
+		html += "<td style='text-align: right; padding-right: 20px; width: 10%; vertical-align: middle'>"+ cart[product].hours+"</td>";
+		html += "<td style='width: 10%; text-align: center; vertical-align: middle' >"+ cart[product].Project+"</td>";
 		html += "<td style='text-align: right; padding-right: 20px; width: 5%; vertical-align: middle'><span id='total-amount'> "+productTotal(product)+"</span></td>";
         html += "<td style='width: 20%; vertical-align: middle' ><button class='btn remove-from-cart' data-id='"+product+"'><i class='fa fa-trash'></i></button></td>"
 		html += "<br/>";
@@ -47,14 +47,14 @@ $( document ).ready(function() {
     function calculate_total(){
         var sum = 0;
         for (item in cart){
-            sum += cart[item].quantity * cart[item].price
+            sum += cart[item].quantity * cart[item].hours
         }
         return parseFloat(sum).toFixed(2);
     }
 
     function productTotal(item){
         var sum = 0;
-            sum += cart[item].quantity * cart[item].price
+            sum += cart[item].quantity * cart[item].hours
         return parseFloat(sum).toFixed(2);
     }
 
