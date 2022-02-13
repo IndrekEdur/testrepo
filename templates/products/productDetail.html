@@ -1,31 +1,35 @@
 {% extends 'base.html' %}
 
-
-
 {% block content %}
-  
 
 <div class="container">
 
-  <div class="row justify-content-center">
-      <div class="col-md-8">
-        <a href="{% url 'showProducts' %}" class="btn btn-primary mt-2">Back</a>
-          <div class="card m-5 p-2" style="width: 25rem;">
+  <div class="row justify-content-left">
+          <div class="col-sm-6">
+
+          <div class="card m-1 p-1" style="width: 22rem;">
               <img src="{{ eachProduct.image.url }}" class="card-img-top product" alt="...">
-              <div class="card-body">
+              <div class="card-body m-1 p-1">
                   <h5 class="card-title m-1"><b>Name:</b> {{ eachProduct.name }}</h5>
                   <h4 class="card-subtitle m-1"><b>hours:</b> {{ eachProduct.hours }}</h4>
                   <p style="font-size: 14px;" class="btn btn-warning m-1 p-1">{{ eachProduct.Project.name }}</p>
                   <hr>
-                  <p style="font-size: 15px;" class="card-text mt-1">Description: {{ eachProduct.description }}</p>
-                  <p style="font-size: 13px;" class="cart-text mt-1">added - {{ eachProduct.created_at }}</p>
+                  <p style="font-size: 15px;" class="card-text mt-1"><b>Description:</b> {{ eachProduct.description }}</p>
+                  <p style="font-size: 13px;" class="cart-text mt-1">
+                      <a href="{% url 'sendNotification' eachProduct.id eachProduct.author.email eachProduct.author.username %}" class="btn-sm btn-success m-1 text-decoration-none"> Notify </a>
+                      Author - {{ eachProduct.author }}</p>
+                  <p style="font-size: 13px;" class="cart-text mt-1">
+                      <a href="{% url 'sendNotification' eachProduct.id eachProduct.performer.email eachProduct.performer.username %}" class="btn-sm btn-success m-1 text-decoration-none"> Notify </a>
+                      Performer - {{ eachProduct.performer }}</p>
+                  <p style="font-size: 13px;" class="cart-text mt-1">Added - {{ eachProduct.created_at }}</p>
                   <a href="{% url 'deleteProduct' eachProduct.id %}" class="btn btn-danger m-1"> Delete </a>
                   <a href="{% url 'updateProduct' eachProduct.id %}" class="btn btn-primary m-1"> Update </a>
+                  <a href="{% url 'showProducts' %}" class="btn btn-primary m-1">Back</a>
               </div>
           </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-6">
          <div style="margin: 5px padding:2px">
             Add Comments ({{ num_comments }})
             <br>
@@ -48,8 +52,8 @@
 
                         <p><a class="btn btn-primary" href="{% url 'add-comment' eachProduct.id %}">  Add Comment </a></p>
                         <p><a class="btn btn-danger" href="{% url 'delete-comment' eachProduct.id %}">  Delete Comment </a></p>
-                      
-                      
+                        <p><a class="btn btn-primary mt-2" href="{% url 'showProducts' %}" > Back </a></p>
+
                     {% endif %}
                     
                     
@@ -57,8 +61,6 @@
                 {% endfor %}
 
             {% endif %}
-
-    
 
          </div>
       </div>

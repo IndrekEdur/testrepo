@@ -1,5 +1,3 @@
-from django.shortcuts import render
-
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.contrib.auth.decorators import login_required
@@ -11,21 +9,24 @@ from django.urls import reverse_lazy
 from django.http import JsonResponse
 import json
 
-from . models import Product, Project, Comment
-from . forms import ProductForm, CommentForm
+from . models import Product, Project, Comment, Hours
+from . forms import ProductForm, CommentForm, HoursForm
+
+import smtplib
+from email.message import EmailMessage
 
 class ProductListView(ListView):
     model = Product
     template_name = 'products/product_list.html'
     context_object_name = 'products'
 
-@login_required(login_url='accounts/login')
+@login_required(login_url='accounts/login.html')
 def ShowAllProducts(request):
 
     project = request.GET.get('project')
 
     if project == None:
-        products = Product.objects.order_by('-hours').filter(is_published=True)
+        products = Product.objects.order_by('created_at').filter(is_completed=False)
         page_num = request.GET.get("page")
         paginator = Paginator(products, 8)
         try:
@@ -35,7 +36,7 @@ def ShowAllProducts(request):
         except EmptyPage:
             products = paginator.page(paginator.num_pages)
     else:
-        products = Product.objects.filter(Project__name=project)
+        products = Product.objects.order_by('created_at').filter(Project__name=project, is_completed=False)
 
     projects = Project.objects.all()
 
@@ -69,8 +70,6 @@ class ProductCreateView(CreateView):
 
 @login_required(login_url='showProducts')
 def addProduct(request):
-    form = ProductForm()
-
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
@@ -78,12 +77,31 @@ def addProduct(request):
             return redirect('showProducts')
     else:
         form = ProductForm()
-
     context = {
         "form": form
      }
-
     return render(request, 'products/addProduct.html', context)
+
+@login_required(login_url='showProducts')
+def addHours(request, pk):
+
+    product = Product.objects.get(id=pk)
+    project = product.Project
+    form = HoursForm(instance=project)
+    if request.method == 'POST':
+        form = HoursForm(request.POST, instance=project)
+        if form.is_valid():
+            owner = request.user.id
+            quantity = form.cleaned_data['quantity']
+            date = form.cleaned_data['date']
+            c = Hours(project=project, date=date, owner=request.user, quantity=quantity, inserted_at=datetime.now())
+            c.save()
+            return redirect('showProducts')
+    else:
+        form = HoursForm()
+
+    return render(request, 'products/addHours.html', {'form': form })
+
 
 
 class ProductDetailView(DetailView):
@@ -114,20 +132,42 @@ class ProductUpdateView(UpdateView):
 @login_required(login_url='showProducts')
 def updateProduct(request, pk):
     product = Product.objects.get(id=pk)
-
     form = ProductForm(instance=product)
 
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES, instance=product)
         if form.is_valid():
             form.save()
+            sendNotification(request, pk, product.author.email, " : has been updated! ")
             return redirect('showProducts')
 
     context = {
-        "form": form
+        "form": form,
     }
 
     return render(request, 'products/updateProduct.html', context)
+
+@login_required(login_url='sendNotification')
+def sendNotification(request, pk, email, content):
+    product = Product.objects.get(id=pk)
+
+    msg = EmailMessage()
+    msg.set_content( product.Project.name + " : " + product.name + "  >>>  " + content + "  Here is the link for details: http://indreke.pythonanywhere.com/products/product/"+str(pk)+"/" + "   Description: " + product.description)
+    msg['subject'] = product.Project.name + " : " + product.name
+    msg['to'] = email
+
+    user = "erlin.virtuaalne.assistent@gmail.com"
+    msg['from'] = user
+    password = "ipjykvcufysqigsc"
+
+    server = smtplib.SMTP("smtp.gmail.com", 587)
+    server.starttls()
+    server.login(user, password)
+    server.send_message(msg)
+
+    server.quit()
+
+    return redirect('showProducts')
 
 
 class ProductDeleteView(DeleteView):
@@ -140,6 +180,7 @@ class ProductDeleteView(DeleteView):
 @login_required(login_url='showProducts')
 def deleteProduct(request, pk):
     product = Product.objects.get(id=pk)
+    sendNotification(request, pk, product.author.email, " : has been deleted! ")
     product.delete()
     return redirect('showProducts')
 
@@ -163,11 +204,13 @@ def add_comment(request, pk):
 
     if request.method == 'POST':
         form = CommentForm(request.POST, instance=eachProduct)
+        product = Product.objects.get(id=pk)
         if form.is_valid():
             name = request.user.username
             body = form.cleaned_data['comment_body']
             c = Comment(product=eachProduct, commenter_name=name, comment_body=body, date_added=datetime.now())
             c.save()
+            sendNotification(request, pk, product.author.email, " : has been commented! ")
             return redirect('showProducts')
         else:
             print('form is invalid')

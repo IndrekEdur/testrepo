@@ -5,11 +5,38 @@
 
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 
- <title>{% block title %} Product Management onlineshopping {% endblock %}</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/js/tempusdominus-bootstrap-4.min.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.39.0/css/tempusdominus-bootstrap-4.min.css" crossorigin="anonymous">
+
+</head>
+  <body>
+
+<!--    <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+      <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1"/>
+      <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
+        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+      </div>
+    </div>
+
+    <script>
+      $(function () {
+        $("#datetimepicker1").datetimepicker();
+      });
+    </script>-->
+
+  </body>
+</html>
+
+
+ <title>{% block title %} ERLIN online {% endblock %}</title>
+
+ <link rel="icon" href=" /media/favicon.bmp">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -42,23 +69,24 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
+  <nav class="navbar navbar-expand sticky-top navbar-dark bg-dark">
+    <div class="container-fluid">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
              <li class="nav-item">
                 <a class="navbar-brand" href="/products/list/"><img src=" /media/ERLIN_logo_black.bmp " width="35"></a>
              </li>
             <li class="nav-item">
-                <a class="navbar-brand" href="{% url 'showProducts' %}">ERLIN</a>
-                </li>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-<!--         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="{% url 'showProducts' %}"></a>
+            </li>
+        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>-->
+        </button>
+<!--         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--          </button>-->
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class=" navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
 <!--          <li class="nav-item active">-->
 <!--            <a class="nav-link" id="home" href="/products/list">Products<span class="sr-only">(current)</span></a>-->
@@ -81,7 +109,9 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% for project in projects %}
-                <a class="dropdown-item" href="{% url 'showProducts' %}?project={{ project.name }}">{{ project.name }}</a>
+                {% if project.is_active is True %}
+                <a class="dropdown-item" style="font-size: 10px;" href="{% url 'showProducts' %}?project={{ project.name }}">{{ project.name }}</a>
+                {% endif %}
               {% endfor %}
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="{% url 'showProducts' %}">Show all</a>
@@ -100,7 +130,7 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item" >
-            <a class="nav-link" id="cart" href="/shopping_cart/list"><span id="cart-items">0</span> items in <img src="/media/cart.png" width="25" href="/shopping_cart/list"></a>
+            <a class="nav-link" id="cart" href="/shopping_cart/list"><span id="cart-items">0</span>  in <img src="/media/cart.png" width="25" href="/shopping_cart/list"></a>
           </li>
 
           <li class="nav-item">
@@ -121,7 +151,7 @@
 
 <!--                </form>-->
 
-                <a class="nav-link" id="logout" href="/accounts/logout/">Logout {{user.username}}</a>
+                <a class="nav-link" id="logout" href="/accounts/logout/">Q: {{user.username}}</a>
             {% else %}
                 <li class="nav-item m-3">
                     <a href="{% url 'login' %}" class="btn btn-primary m-1">Login</a>
@@ -132,24 +162,30 @@
                 </li>
             {% endif %}
         </ul>
-
       </div>
-    </nav>
+    </div>
+  </nav>
 
-   <div id="content">
+  <div id="content m-1 p-1" >
      {% block content %}
      {% endblock %}
-   </div>
+  </div>
 
-   <div id="footer">
+  <div id="footer">
        <br/>
-       <h2 class="text-center mt-3">- - - This is ERLIN online task system - - -</h2>
+       <h2 class="text-center mt-3">- ERLIN online -</h2>
        <br/>
-   </div>
+  </div>
 
 <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/bootstrap.bundle.js' %}"></script>
+
+<!--<script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>-->
+<script type="text/javascript" src="{% static 'js/moment.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/tempus-dominus.js' %}"></script>
+<link rel="stylesheet" href="{% static 'styles/tempus-dominus.css' %}"/>
+
 
 {% block script %}{% endblock %}
 

@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'check_out',
     # From Just Django example
     'accounts',
+    'tempus_dominus',
+    'jquery',
 
     # 'send_email.apps.SendEmailConfig',
     # 'pdf_convert.apps.PdfConvertConfig',

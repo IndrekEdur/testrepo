@@ -8,15 +8,20 @@ $(document).ready(function() {
         modalImg.src = $(this).attr('src');
         captionText.innerHTML = $(this).attr('alt');
     });
+
     $('.close').click(function() {
         modal.style.display = "none";
     });
 
-    // $('.add-to-cart').click(function() {
-    //     var cart_items = parseInt($("#cart_items").html())
-    //     cart_items = cart_items + 1
-    //     $("#cart_items").html(cart_items)
-    // });
+    $('.add-to-cart').click(function() {
+         var cart_items = parseInt($("#cart_items").html())
+         cart_items = cart_items + 1
+         $("#cart_items").html(cart_items)
+    });
+
+    $('.notify-by-email').click(function() {
+        href="{% url 'sendNotification' 5 "indrek@erlin.ee" %}"
+    });
 
 });
 

@@ -7,17 +7,18 @@
 <body>
 
     <th><img src=" /media/glass.jfif " width="150"> <br/></th>
-    <p><b> PRODUCT DETAIL PAGE </b> </p> <br/>
+    <p><b> JOB DETAIL PAGE </b> </p> <br/>
 
         <p>PK: {{ product.pk }}</p>
         <p>Name: {{ product.name }}</p>
         <p>hours: {{ product.hours }}</p>
+        <p>completed: {{ product.is_completed }}</p>
         <p>Project: {{ product.Project.name }}</p><br/>
 
         <img src="{{ product.image.url }}" style="width:100%;max-width:200px" class="product"> <br/>
 
-        <a class="btn btn-primary" href="{% url 'product_update' product.pk %}" role="button">Update product </a>
-        <a class="btn btn-danger" href="{% url 'product_delete' product.pk %}" role="button">Delete product </a>
+        <a class="btn btn-primary" href="{% url 'product_update' product.pk %}" role="button">Update job </a>
+        <a class="btn btn-danger" href="{% url 'product_delete' product.pk %}" role="button">Delete job </a>
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
