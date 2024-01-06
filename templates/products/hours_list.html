@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<th><img src=" /media/calendar.png " width="150"> <br/> </th>
+
+    <p class="m-1"><b> MY WORKING HOURS PAGE: ORDERED BY DATE </b></p>
+<!--    user.pk: {{user.pk}} <hr/>-->
+    {% if user.is_authenticated %}
+
+    <a class="btn btn-primary m-1" href="{% url 'showProjects' %}" role="button">Projects</a>
+    <a class="btn btn-success m-1" href="{% url 'addGeneralHours' %}" role="button">Add Hours</a>
+    <a class="btn btn-outline-success m-1" href="{% url 'working-hours-by-projects' user.pk %}" role="button">By Projects</a> <br/>
+
+    <table class="table">
+        {% for month in months %}
+        <tr>
+            <th>project</th>
+            <th>job</th>
+            <th>hrs</th>
+            <th>date</th>
+            <th>delete / update</th>
+        </tr>
+
+            {% for hours in hours %}
+                {% if hours.date|date:"n" == month  %}
+                    {% if hours.owner_id == user.pk %}
+                    <tr>
+        <!--                <td>{{ hours.owner.username }}</td>-->
+                        <td> <style> A {text-decoration: none; color: black} </style> <a href="{% url 'project_detail' hours.project.pk %}"> {{ hours.project.name }} </td>
+                        <td> <style> A {text-decoration: none; color: black} </style>
+                            <a href="{% url 'product_detail' hours.product.pk %}">
+                                {{ hours.product.name }} </td>
+                        <td>{{ hours.quantity }}</td>
+                        <td>{{ hours.date|date }}</td>
+                        <th>
+                            <a class="btn btn-danger" href="{% url 'hours_delete' hours.pk %}" role="button"><img src=" /media/delete.png " width="15"></a>
+                            <a class="btn btn-outline-primary" href="{% url 'hours_update' hours.pk %}" role="button"><img src=" /media/update.jpg " width="15"></a><br/>
+                        </th>
+                    </tr>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+        {% endfor %}
+    </table>
+    <b>total:</b> {{sum}} hours <br/>
+
+    <a class="btn btn-primary m-1" href="{% url 'showProjects' %}" role="button">Projects</a>
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div>
+
+    {% else %}
+    you need to be logged in to see the content <br/>
+    <a class="btn btn-primary" href="{% url 'login' %}" role="button">Login </a>
+
+    {% endif %}
+
+
+
+
+{% endblock %}
+
+{% block script %}
+<script src="/static/js/popup1.js"></script>
+<script src="/static/js/cart.js"></script>
+
+{% endblock %}

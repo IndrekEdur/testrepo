@@ -50,15 +50,16 @@
 
                     {% if request.user.username == comment.commenter_name %}
 
-                        <p><a class="btn btn-primary" href="{% url 'add-comment' eachProduct.id %}">  Add Comment </a></p>
                         <p><a class="btn btn-danger" href="{% url 'delete-comment' eachProduct.id %}">  Delete Comment </a></p>
-                        <p><a class="btn btn-primary mt-2" href="{% url 'showProducts' %}" > Back </a></p>
 
                     {% endif %}
-                    
-                    
+
+
 
                 {% endfor %}
+
+            <p><a class="btn btn-primary" href="{% url 'add-comment' eachProduct.id %}">  Add Comment </a></p>
+            <p><a class="btn btn-primary mt-2" href="{% url 'showProducts' %}" > Back </a></p>
 
             {% endif %}
 

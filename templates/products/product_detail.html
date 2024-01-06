@@ -19,6 +19,7 @@
 
         <a class="btn btn-primary" href="{% url 'product_update' product.pk %}" role="button">Update job </a>
         <a class="btn btn-danger" href="{% url 'product_delete' product.pk %}" role="button">Delete job </a>
+        <a href="{% url 'addHours' product.pk %}" style="" class="btn btn-success m-0">Hours</a>
 
     <!-- The Modal -->
     <div id="myModal" class="modal">

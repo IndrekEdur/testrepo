@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-i!&bo*rqs5by#mo!w!j1%(ck5!abj_mx@^-6=-^6sa9m44h*1v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['indreke.pythonanywhere.com']
 
 LOGIN_REDIRECT_URL = '/products/list'
 
