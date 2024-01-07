@@ -31,7 +31,7 @@
 
       <div class="col-sm-6">
          <div style="margin: 5px padding:2px">
-            Add Comments ({{ num_comments }})
+            <b> Add Comments </b> ({{ num_comments }})
             <br>
             <hr>
 
@@ -50,16 +50,13 @@
 
                     {% if request.user.username == comment.commenter_name %}
 
-                        <p><a class="btn btn-primary" href="{% url 'add-comment' eachProduct.id %}">  Add Comment </a></p>
                         <p><a class="btn btn-danger" href="{% url 'delete-comment' eachProduct.id %}">  Delete Comment </a></p>
-                        <p><a class="btn btn-primary mt-2" href="{% url 'showProducts' %}" > Back </a></p>
 
                     {% endif %}
-                    
-                    
 
                 {% endfor %}
-
+            <p><a class="btn btn-primary" href="{% url 'add-comment' eachProduct.id %}">  Add Comment </a></p>
+            <p><a class="btn btn-primary mt-2" href="{% url 'showProducts' %}" > Back </a></p>
             {% endif %}
 
          </div>

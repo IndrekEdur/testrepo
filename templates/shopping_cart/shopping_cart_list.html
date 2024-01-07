@@ -3,17 +3,18 @@
 {% block content %}
 <th><img src=" /media/check_out1.jfif " width="150"> <br/></th>
 
-    <p><b> SHOPPING CART PAGE </b></p>
+    <p><b> WORKING HOURS PAGE </b></p>
     user.pk: {{user.pk}}
     {% if user.is_authenticated %}
-<!--    <p>Here are the details of your shopping cart via Database:</p><br/>
+
+    <p>Here are the details of your shopping cart via Database:</p><br/>
     <table class="table">
         <tr>
             <th>PK</th>
             <th>user_name</th>
             <th>created_time</th>
         </tr>
-        {% for shopping_cart in shopping_carts %}
+        {% for working_hour in working_hours %}
             {% if shopping_cart.user_name_id == user.pk %}
             <tr>
                 <td>{{ shopping_cart.pk }}</td>
@@ -54,7 +55,7 @@
         {% endfor %}
 
 
-    </table><br/>-->
+    </table><br/>
 
 
 

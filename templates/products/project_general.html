@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<body>
+
+    <th><img src=" /media/glass.jfif " width="150"> <br/></th>
+    <p><b> PROJECT GENERAL PAGE </b> </p> <br/>
+
+        <p>PK: {{ project.pk }}</p>
+        <p>Name: {{ project.name }}</p>
+<!--        <p>hours: {{ project.hours }}</p>-->
+        <p>is active: {{ project.is_active }}</p>
+        <p>dropbox link: {{ project.dropbox_link }}</p>
+        <p>total hours: {{ sum }}</p>
+
+    <a class="btn btn-primary" href="{% url 'showProjects' %}" role="button">Projects</a>
+    <a class="btn btn-success" href="{% url 'updateProject' pk %}" role="button">Update</a>
+    <a class="btn btn-outline-primary" href="{{ project.dropbox_link }}" role="button">Dropbox</a>
+    <a class="btn btn-outline-secondary" href="{% url 'project_detail' project.pk %}" role="button">Detail</a>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div><br/>
+    <br/>
+    <p><b> DONE JOBS IN YOUR WORK LIST </b> </p> <br/>
+
+    <table class="table" id="display-cart">
+
+    </table>
+
+</body>
+
+{% endblock %}
+
+{% block script %}
+<script src="/static/js/popup1.js"></script>
+
+{% endblock %}

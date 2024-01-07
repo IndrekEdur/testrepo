@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<th><img  src=" /media/factory.ico " width="100" class="m-2"> <br/></th>
+    <p class="m-2"><b> IMPORT PROJECT PAGE </b></p><br/>
+
+    {% if messages %}
+        {% for message in messages %}
+            <p>{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+
+    <form action="{% url 'upload_xlsx' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="xlsx_file" accept=".xlsx">
+        <button class="btn btn-success m-1" type="submit">Upload and Import</button>
+    </form>
+
+{% endblock %}

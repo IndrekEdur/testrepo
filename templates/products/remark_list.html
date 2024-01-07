@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block script %}
+<script src="/static/js/popup1.js"></script>
+{% endblock %}
+
+{% block content %}
+<th><img  src=" /media/factory.ico " width="100" class="m-2"> <br/></th>
+<p class="m-2"><b>REMARK LIST PAGE</b></p>
+    {% if user.is_authenticated %}
+    <a class="btn btn-success m-1" href="{% url 'addRemark' %}" role="button">Add remark </a>
+    <a class="btn btn-primary m-1" href="{% url 'working-hours' user.pk %}" role="button">My hours </a>
+
+    <table class="table">
+        <tr>
+            <th>Number</th>
+            <th>Remark Author</th>
+            <th>delete / update</th>
+            <th>Remark</th>
+        </tr>
+        {% for remark in remarks %}
+
+            <tr>
+                <td>{{ remark.id }}</td>
+                <td><a  href="{% url 'working-hours' user.pk %}" style="text-decoration: none">{{ remark.commenter_name }}</a></td>
+                <th>
+                    <a class="btn btn-danger" href="{% url 'deleteRemark' remark.pk %}" role="button"><img src=" /media/delete.png " width="15"></a>
+
+                </th>
+                <td>{{ remark.comment_body }}</td>
+            </tr>
+
+        {% endfor %}
+    </table>
+
+    <a class="btn btn-success m-1" href="{% url 'addRemark' %}" role="button">Add remark </a>
+
+    {% else %}
+    you need to be logged in to see the content <br/>
+    <a class="btn btn-primary" href="{% url 'login' %}" role="button">Login </a>
+
+    {% endif %}
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+</div>
+
+{% endblock %}

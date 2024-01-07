@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'accounts',
     'tempus_dominus',
     'jquery',
+    'mathfilters',
 
     # 'send_email.apps.SendEmailConfig',
     # 'pdf_convert.apps.PdfConvertConfig',

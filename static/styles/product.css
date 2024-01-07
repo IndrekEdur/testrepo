@@ -1,3 +1,41 @@
+.navbar-nav > li{
+  padding-left:1px;
+  padding-right:1px;
+  margin-left:1px;
+  margin-right:1px;
+  border:1px;
+}
+
+.navbar-nav > ul{
+  padding-left:1px;
+  padding-right:1px;
+  margin-left:1px;
+  margin-right:1px;
+  border:1px;
+}
+
+.nav-item active > a{
+  padding-left:1px;
+  padding-right:1px;
+  margin:1px;
+  border:1px;
+}
+
+.nav-item > a{
+  padding-left:1px;
+  padding-right:1px;
+  margin:1px;
+  border:1px;
+}
+
+.nav-item dropdown > a{
+  padding-left:1px;
+  padding-right:1px;
+  margin:1px;
+  border:1px;
+}
+
+
 body {font-family: Arial, Helvetica, sans-serif;}
 #content {margin-left: 20px;}
 

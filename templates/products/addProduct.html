@@ -1,23 +1,26 @@
 {% extends 'base.html' %}
 
-
 {% block content %}
 
 <hr>
+<h1 style="font-size: 40px; margin-left: 30px;" class="p-2">
+   Add Job Page
+</h1>
 
-  <h1 style="font-size: 40px; margin-left: 30px;" class="p-2">
-     Add Job Page
-  </h1>
+<div class="container m-3">
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class="btn btn-primary" type="submit" name="Submit">
+    </form>
+</div>
 
-  <div class="container m-3">
-      <form action="" method="post" enctype="multipart/form-data">
-
-          {% csrf_token %}
-          {{ form.as_p }}
-          <input class="btn btn-primary" type="submit" name="Submit">
-
-      </form>
-  </div>
-
+<script>
+$(document).ready(function() {
+    // Initialize Select2 on all select fields with class 'form-control'
+    $('select.form-control').select2();
+});
+</script>
 
 {% endblock %}
+

@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<body>
+
+    <th><img src=" /media/glass.jfif " width="150"> <br/></th>
+    <p><b> PROJECT DETAIL PAGE </b> </p> <br/>
+
+        <p>PK: {{ project.pk }}</p>
+        <p>Name: {{ project.name }}</p>
+<!--        <p>hours: {{ project.hours }}</p>-->
+        <p>is active: {{ project.is_active }}</p>
+        <p>dropbox link: {{ project.dropbox_link }}</p>
+        <p>total hours: {{ sum }}</p>
+
+        <p><a class="btn btn-primary" href="{% url 'showProjects' %}" role="button">Projects</a>
+        <a class="btn btn-success" href="{% url 'updateProject' pk %}" role="button">Update</a>
+        <a class="btn btn-outline-primary" href="{{ project.dropbox_link }}" role="button">Dropbox</a>
+        <a class="btn btn-outline-success" href="{{ project.budget_dropbox_link }}" role="button">Budgets</a></p>
+
+        <p><b> HOURS SPENT ON THE PROJECT </b> </p>
+        <table class="table">
+        <tr>
+            <th>user_name</th>
+            <th>project</th>
+            <th>job</th>
+            <th>hrs</th>
+            <th>date</th>
+            <th>delete / update</th>
+        </tr>
+
+        {% for hours in hours %}
+            {% if hours.project_id == project.pk %}
+            <tr>
+                <td>{{ hours.owner.username }}</td>
+                <td>{{ hours.project.name }}</td>
+                <td><style> A {text-decoration: none; color: black} </style>
+                    <a href="{% url 'product_detail' hours.product.pk %}">
+                    {{ hours.product.name }}</td>
+                <td>{{ hours.quantity }}</td>
+                <td>{{ hours.date }}</td>
+                <th>
+                    <a class="btn btn-danger" href="{% url 'hours_delete' hours.pk %}" role="button"><img src=" /media/delete.png " width="15"></a>
+                    <a class="btn btn-outline-primary" href="{% url 'hours_update' hours.pk %}" role="button"><img src=" /media/update.jpg " width="15"></a><br/>
+                </th>
+            </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+    <b>total:</b> {{sum}} hours <br/>
+
+
+    <a class="btn btn-primary" href="{% url 'showProjects' %}" role="button">Projects</a>
+    <a class="btn btn-success" href="{% url 'updateProject' pk %}" role="button">Update</a>
+    <a class="btn btn-outline-primary" href="{{ project.dropbox_link }}" role="button">Dropbox</a>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div><br/>
+    <br/>
+    <p><b> DONE JOBS IN YOUR WORK LIST </b> </p> <br/>
+
+    <table class="table" id="display-cart">
+
+    </table>
+
+</body>
+
+{% endblock %}
+
+{% block script %}
+<script src="/static/js/popup1.js"></script>
+
+{% endblock %}
