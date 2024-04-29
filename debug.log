@@ -1,0 +1,2890 @@
+Test log message from tasks
+Test log message from my_views
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def send_FB_message(self):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from tasks
+Test log message from tasks
+s
+Test log message from my_views
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Cancelling an overlapped future failed
+future: <_OverlappedFuture pending overlapped=<pending, 0x2b9b7be4d30> cb=[BaseProactorEventLoop._loop_self_reading()]>
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\asyncio\windows_events.py", line 66, in _cancel_overlapped
+    self._ov.cancel()
+OSError: [WinError 6] The handle is invalid
+Test log message from tasks
+
+def backend_cleanup():
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def send_FB_message(self):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+Start from server, version: 0.9, properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'kangaroo', 'copyright': 'Copyright (c) 2007-2023 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 25.3', 'product': 'RabbitMQ', 'version': '3.12.6'}, mechanisms: [b'PLAIN', b'AMQPLAIN'], locales: ['en_US']
+using channel_id: 1
+Channel open
+Using proactor: IocpProactor
+Test log message from tasks
+Test log message from my_views
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def send_FB_message(self):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Test log message from tasks
+Test log message from my_views
+Cancelling an overlapped future failed
+future: <_OverlappedFuture pending overlapped=<pending, 0x2b9b7cbd280> cb=[BaseProactorEventLoop._loop_self_reading()]>
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\asyncio\windows_events.py", line 66, in _cancel_overlapped
+    self._ov.cancel()
+OSError: [WinError 6] The handle is invalid
+Using proactor: IocpProactor
+Cancelling an overlapped future failed
+future: <_OverlappedFuture pending overlapped=<pending, 0x2b9b7ca1f70> cb=[BaseProactorEventLoop._loop_self_reading()]>
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\asyncio\windows_events.py", line 66, in _cancel_overlapped
+    self._ov.cancel()
+OSError: [WinError 6] The handle is invalid
+Watching for file changes with StatReloader
+Test log message from tasks
+Test log message from my_views
+Not Found: /favicon.ico
+Internal Server Error: /products/users_list/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 167, in ShowAllUsers
+    return render(request, 'products/users_list.html', context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'send-message' not found. 'send-message' is not a valid view function or pattern name.
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Test log message from tasks
+Test log message from my_views
+Test log message
+This is a debug message in my_view
+
+def backend_cleanup():
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def send_facebook_message(self, page_access_token, recipient_id, message_text):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+Start from server, version: 0.9, properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'kangaroo', 'copyright': 'Copyright (c) 2007-2023 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 25.3', 'product': 'RabbitMQ', 'version': '3.12.6'}, mechanisms: [b'PLAIN', b'AMQPLAIN'], locales: ['en_US']
+using channel_id: 1
+Channel open
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\apps.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-01-18 02:33:41.638586+02:00 (in 10799.998989 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-01-18 02:33:42.432802+02:00 (in 10799.998992 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Not Found: /favicon.ico
+This is a debug message in my_view
+Internal Server Error: /products/send-message/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 42, in send_messenger_message
+    send_facebook_message.delay(page_access_token, recipient_id, message_text)
+AttributeError: 'function' object has no attribute 'delay'
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\tasks.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\tasks.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-01-18 02:37:45.689821+02:00 (in 10799.999004 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+This is a debug message in my_view
+Internal Server Error: /products/send-message/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 42, in send_messenger_message
+    send_facebook_message(page_access_token, recipient_id, message_text)
+TypeError: send_facebook_message() takes 0 positional arguments but 3 were given
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\tasks.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-01-18 02:39:58.795401+02:00 (in 10799.999003 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+This is a debug message in my_view
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\tasks.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-01-18 02:43:23.853628+02:00 (in 10799.999002 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\tasks.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-01-18 02:43:44.648808+02:00 (in 10799.998991 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+This is a debug message in my_view
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\tasks.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-01-18 02:44:34.266978+02:00 (in 10799.999004 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+This is a debug message in my_view
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Looking for jobs to run
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-18 02:33:41 EET)" was missed by 2:12:45.887721
+Next wakeup is due at 2024-01-18 17:33:41.638586+02:00 (in 2834.111277 seconds)
+Looking for jobs to run
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-18 02:44:34 EET)" was missed by 2:12:45.885781
+Next wakeup is due at 2024-01-18 17:44:34.266978+02:00 (in 2834.113147 seconds)
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 02:33:41.638586+02:00 (in 6604.993081 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 02:33:41 EET)" was missed by 1:09:55.006919
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 02:44:34.266978+02:00 (in 6604.986355 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 02:44:34 EET)" was missed by 1:09:55.014644
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 11:33:41.638586+02:00 (in 10202.682001 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 11:33:41 EET)" was missed by 0:09:57.317999
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 11:44:34.266978+02:00 (in 10202.676895 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 11:44:34 EET)" was missed by 0:09:57.324568
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 17:33:41.638586+02:00 (in 1556.407050 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 17:33:41 EET)" was missed by 2:34:03.592950
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 17:44:34.266978+02:00 (in 1556.404247 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 17:44:34 EET)" was missed by 2:34:03.596690
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 20:33:41.638586+02:00 (in 10799.985815 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 20:33:41 EET)" (scheduled at 2024-01-19 17:33:41.638586+02:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 20:33:41 EET)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 20:44:34.266978+02:00 (in 10799.987856 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 20:44:34 EET)" (scheduled at 2024-01-19 17:44:34.266978+02:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 20:44:34 EET)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 23:33:41.638586+02:00 (in 10799.963742 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 23:33:41 EET)" (scheduled at 2024-01-19 20:33:41.638586+02:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 23:33:41 EET)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-01-19 23:44:34.266978+02:00 (in 10799.979365 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 23:44:34 EET)" (scheduled at 2024-01-19 20:44:34.266978+02:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-19 23:44:34 EET)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-01-20 14:33:41.638586+02:00 (in 8606.128481 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-20 14:33:41 EET)" was missed by 0:36:33.872519
+Looking for jobs to run
+Next wakeup is due at 2024-01-20 17:44:34.266978+02:00 (in 9287.489803 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-20 17:44:34 EET)" was missed by 0:25:12.511195
+Looking for jobs to run
+Next wakeup is due at 2024-01-20 23:33:41.638586+02:00 (in 5894.757009 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-20 23:33:41 EET)" was missed by 1:21:45.242991
+Looking for jobs to run
+Next wakeup is due at 2024-01-20 23:44:34.266978+02:00 (in 4668.147518 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-20 23:44:34 EET)" was missed by 1:42:11.852482
+Looking for jobs to run
+Next wakeup is due at 2024-01-22 08:33:41.638586+02:00 (in 4336.287969 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-22 08:33:41 EET)" was missed by 1:47:43.713028
+Looking for jobs to run
+Next wakeup is due at 2024-01-22 08:44:34.266978+02:00 (in 4881.459707 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-22 08:44:34 EET)" was missed by 1:38:38.541255
+Looking for jobs to run
+Next wakeup is due at 2024-01-22 11:33:41.638586+02:00 (in 7754.532395 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-22 11:33:41 EET)" was missed by 0:50:45.468558
+Looking for jobs to run
+Next wakeup is due at 2024-01-22 11:44:34.266978+02:00 (in 7754.528873 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-01-22 11:44:34 EET)" was missed by 0:50:45.472558
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-20 12:09:18.455263+03:00 (in 10799.998998 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-20 12:09:19.346253+03:00 (in 10800.000000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Not Found: /favicon.ico
+Not Found: /media/products/orkla.png
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:09:32.607766+03:00 (in 10799.999312 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:09:34.470519+03:00 (in 10799.998294 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:16:10.707742+03:00 (in 10799.998926 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:16:11.810735+03:00 (in 10799.998970 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:17:43.547455+03:00 (in 10799.997815 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:17:59.560075+03:00 (in 10799.998963 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:18:45.045700+03:00 (in 10799.998934 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:21:47.158326+03:00 (in 10799.999037 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Not Found: /favicon.ico
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\Final_Project\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:24:04.326531+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\Final_Project\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:24:15.281926+03:00 (in 10799.999102 seconds)
+Watching for file changes with StatReloader
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\Final_Project\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:25:04.232314+03:00 (in 10800.000000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\Final_Project\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:25:07.564614+03:00 (in 10799.998889 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:27:21.273786+03:00 (in 10799.998809 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:28:57.638603+03:00 (in 10799.998165 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:28:58.707209+03:00 (in 10799.998959 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:34:51.962865+03:00 (in 10799.998000 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:34:53.674559+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:41:32.512319+03:00 (in 10799.998507 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:41:33.959389+03:00 (in 10799.998003 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Not Found: /favicon.ico
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 66, in upload_file
+    for r in dataframe_to_rows(filtered_df, index=False, header=True):
+NameError: name 'dataframe_to_rows' is not defined
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:49:03.880056+03:00 (in 10799.997065 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 21:53:04.152177+03:00 (in 10799.997996 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 22:40:57.575756+03:00 (in 10799.998973 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 22:40:58.492221+03:00 (in 10799.998996 seconds)
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 22:41:06.195650+03:00 (in 10799.999001 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 22:41:16.594730+03:00 (in 10799.999033 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 22:43:40.288445+03:00 (in 10799.998998 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 22:43:44.043555+03:00 (in 10799.998972 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 22:55:39.365031+03:00 (in 10799.999000 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 22:57:53.683734+03:00 (in 10799.999000 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 22:58:03.173663+03:00 (in 10799.998551 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 23:16:24.434965+03:00 (in 10799.998817 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 23:16:25.270389+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 77, in process_and_match_articles
+    output.save(temp_file_path)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Laptop\anaconda3\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/temp_filtered_data.xlsx'
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 77, in process_and_match_articles
+    output.save(temp_file_path)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Laptop\anaconda3\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/temp_filtered_data.xlsx'
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 23:18:14.003764+03:00 (in 10799.998996 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 83, in process_and_match_articles
+    wb = load_workbook(temp_file.name)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 313, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 94, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 83, in process_and_match_articles
+    wb = load_workbook(temp_file.name)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 313, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 94, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 83, in process_and_match_articles
+    wb = load_workbook(temp_file.name)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 313, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 94, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 23:22:47.290207+03:00 (in 10799.998990 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 23:22:48.193789+03:00 (in 10799.998496 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Not Found: /favicon.ico
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 83, in process_and_match_articles
+    wb = load_workbook(temp_file.name)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 313, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 94, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 83, in process_and_match_articles
+    wb = load_workbook(temp_file.name)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 313, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\reader\excel.py", line 94, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 23:28:06.770621+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view products.views.process_and_match_articles didn't return an HttpResponse object. It returned None instead.
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view products.views.process_and_match_articles didn't return an HttpResponse object. It returned None instead.
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 23:28:50.557293+03:00 (in 10799.998973 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 79, in process_and_match_articles
+    df = pd.read_excel(temp_file.name)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
+    io = ExcelFile(io, engine=engine)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
+    self._reader = self._engines[engine](self._io)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
+    super().__init__(filepath_or_buffer)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
+    self.book = self.load_workbook(filepath_or_buffer)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
+    return open_workbook(filepath_or_buffer)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
+    with open(filename, "rb") as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Laptop\\AppData\\Local\\Temp\\tmpijihobey.xlsx'
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 23:30:43.374070+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-22 23:46:16.869010+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:02:55.766280+03:00 (in 10799.998954 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:03:09.472993+03:00 (in 10799.998998 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\models.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:48:00.086179+03:00 (in 10799.998851 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:48:36.393180+03:00 (in 10799.998824 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\forms.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:49:44.241477+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:51:13.023614+03:00 (in 10799.998975 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:53:16.313456+03:00 (in 10799.999480 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:53:27.681153+03:00 (in 10799.998655 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload-articles/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\query.py", line 581, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+products.models.Article.DoesNotExist: Article matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1552, in to_python
+    return decimal.Decimal(value)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 136, in upload_articles
+    article, created = Article.objects.update_or_create(
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\query.py", line 608, in update_or_create
+    obj, created = self.select_for_update().get_or_create(defaults, **kwargs)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\query.py", line 588, in get_or_create
+    return self.create(**params), True
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1415, in execute_sql
+    for sql, params in self.as_sql():
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1358, in as_sql
+    value_rows = [
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1359, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1300, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1561, in get_db_prep_save
+    return connection.ops.adapt_decimalfield_value(self.to_python(value), self.max_digits, self.decimal_places)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\fields\__init__.py", line 1554, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“206.25 € / tk” value must be a decimal number.']
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:58:33.145761+03:00 (in 10799.998992 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:59:02.267252+03:00 (in 10799.998578 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 00:59:19.937132+03:00 (in 10799.999234 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Looking for jobs to run
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-22 23:22:47 EEST)" was missed by 0:06:57.949788
+Next wakeup is due at 2024-04-23 02:22:47.290207+03:00 (in 10382.048207 seconds)
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 02:57:51.971817+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 02:58:41.927231+03:00 (in 10799.998236 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 03:24:59.124652+03:00 (in 10799.998102 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 14:22:47.290207+03:00 (in 7243.141105 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-23 14:22:47 EEST)" was missed by 0:59:16.859781
+Looking for jobs to run
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-23 03:24:59 EEST)" was missed by 1:36:35.227386
+Next wakeup is due at 2024-04-23 15:24:59.124652+03:00 (in 5004.767637 seconds)
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 17:22:47.290207+03:00 (in 7918.262362 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-23 17:22:47 EEST)" was missed by 0:48:01.737638
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 18:24:59.124652+03:00 (in 10156.615719 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-23 18:24:59 EEST)" was missed by 0:10:43.384281
+Looking for jobs to run
+Next wakeup is due at 2024-04-23 20:22:47.290207+03:00 (in 6622.863531 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-23 20:22:47 EEST)" was missed by 1:09:37.136469
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 00:24:59.124652+03:00 (in 9121.151940 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 00:24:59 EEST)" was missed by 0:27:58.849112
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:21:03.882749+03:00 (in 10799.998998 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:35:16.654326+03:00 (in 10799.998967 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:36:02.611341+03:00 (in 10799.998996 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:36:03.704541+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:37:26.396919+03:00 (in 10799.998004 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:38:57.962645+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:39:09.998633+03:00 (in 10799.997998 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:51:19.573688+03:00 (in 10799.997975 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:51:33.381712+03:00 (in 10799.999377 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 01:57:36.826134+03:00 (in 10799.999001 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 02:00:57.099816+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 10:13:37.761528+03:00 (in 10799.998001 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 10:16:17.487806+03:00 (in 10799.998998 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 10:16:33.814827+03:00 (in 10799.998993 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload-articles/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Code'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 137, in upload_articles
+    article_code_lower = str(row['Code']).lower().strip()
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\core\series.py", line 882, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\core\series.py", line 989, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Code'
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 11:17:37.031616+03:00 (in 10799.998957 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 11:20:04.479453+03:00 (in 10799.997993 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 11:20:18.208491+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Bad Request: /products/upload/
+Bad Request: /products/upload/
+Bad Request: /products/upload/
+Internal Server Error: /products/upload/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 98, in process_and_match_articles
+    raw_name_to_match = row[5].value.strip().rstrip(',') if row[5].value else ""
+AttributeError: 'float' object has no attribute 'strip'
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 11:35:26.369195+03:00 (in 10799.998984 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Looking for jobs to run
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 01:36:02 EEST)" was missed by 2:10:41.994239
+Next wakeup is due at 2024-04-24 10:36:02.611341+03:00 (in 2958.003764 seconds)
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 14:05:49.400562+03:00 (in 10799.998829 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 14:06:43.586434+03:00 (in 10799.998991 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 14:08:43.059938+03:00 (in 10799.999001 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 14:08:48.674214+03:00 (in 10800.000000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 14:11:12.335139+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 13:36:02.611341+03:00 (in 8653.194224 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 13:36:02 EEST)" was missed by 0:35:46.805776
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 14:19:25.718830+03:00 (in 10799.998785 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 14:49:25.863281+03:00 (in 10799.998553 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 14:49:38.523316+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 15:50:03.844466+03:00 (in 10799.998095 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 15:53:48.835505+03:00 (in 10799.998897 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 16:43:02.717736+03:00 (in 10799.998997 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 16:43:28.516660+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 16:43:38.287968+03:00 (in 10799.999002 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 16:54:45.242549+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 16:36:02.611341+03:00 (in 9483.896646 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 16:36:02 EEST)" was missed by 0:21:56.103354
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 17:03:32.154815+03:00 (in 10799.998998 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 17:15:30.363296+03:00 (in 10799.999045 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 17:21:43.617291+03:00 (in 10799.999001 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 17:24:59.064716+03:00 (in 10799.998998 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 19:36:02.611341+03:00 (in 10799.984033 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 19:36:02 EEST)" (scheduled at 2024-04-24 16:36:02.611341+03:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 19:36:02 EEST)" executed successfully
+Looking for jobs to run
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 17:24:59 EEST)" (scheduled at 2024-04-24 17:24:59.064716+03:00)
+Next wakeup is due at 2024-04-24 20:24:59.064716+03:00 (in 10799.986932 seconds)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 20:24:59 EEST)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 22:36:02.611341+03:00 (in 8031.392519 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 22:36:02 EEST)" was missed by 0:46:08.607481
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:24:57.109551+03:00 (in 10799.998982 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:25:25.331044+03:00 (in 10799.998973 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:25:42.493724+03:00 (in 10799.998820 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:26:12.331087+03:00 (in 10799.998972 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\forms.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:27:46.653144+03:00 (in 10799.998019 seconds)
+Watching for file changes with StatReloader
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\forms.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:27:53.365027+03:00 (in 10799.997962 seconds)
+Watching for file changes with StatReloader
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\models.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:28:09.174707+03:00 (in 10799.997716 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:28:22.921572+03:00 (in 10799.998017 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:28:43.726772+03:00 (in 10799.998002 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:28:49.537701+03:00 (in 10799.998979 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:28:55.251552+03:00 (in 10799.999065 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:28:56.310313+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:30:18.719614+03:00 (in 10799.998992 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:30:48.581158+03:00 (in 10799.999089 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload_medical_quiz_data/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 257, in medical_quiz_data_modification
+    return render(request, 'input_medical_questions.html', {'form': form, 'success': False})
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: input_medical_questions.html
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:31:56.939015+03:00 (in 10799.997974 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload_medical_quiz_data/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 257, in medical_quiz_data_modification
+    return render(request, 'input_medical_questions.html', {'form': form, 'success': False})
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: input_medical_questions.html
+Not Found: //upload_medical_quiz_data/
+Not Found: /upload_medical_quiz_data/
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:34:17.350899+03:00 (in 10799.998609 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload_medical_quiz_data/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 254, in medical_quiz_data_modification
+    return render(request, 'input_medical_questions.html', {'form': form, 'success': True})
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: input_medical_questions.html
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:37:39.231093+03:00 (in 10799.998994 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-24 23:57:12.842206+03:00 (in 10799.998898 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-25 00:02:35.499438+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-25 00:06:29.188362+03:00 (in 10799.999001 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload_medical_quiz_data/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 264, in medical_quiz_data_modification
+    questions.save(questions_filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Laptop\anaconda3\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Laptop\\Downloads\\processed_questions.xlsx'
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-25 00:15:22.351048+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Looking for jobs to run
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-24 23:28:55 EEST)" was missed by 0:49:23.072645
+Next wakeup is due at 2024-04-25 11:28:55.251552+03:00 (in 7836.926363 seconds)
+Looking for jobs to run
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-25 00:15:22 EEST)" was missed by 1:18:46.483593
+Next wakeup is due at 2024-04-25 12:15:22.351048+03:00 (in 6073.516407 seconds)
+Looking for jobs to run
+Next wakeup is due at 2024-04-25 14:28:55.251552+03:00 (in 7122.895904 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-25 14:28:55 EEST)" was missed by 1:01:17.105002
+Looking for jobs to run
+Next wakeup is due at 2024-04-25 15:15:22.351048+03:00 (in 8886.300378 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-25 15:15:22 EEST)" was missed by 0:31:53.700621
+Looking for jobs to run
+Next wakeup is due at 2024-04-25 17:28:55.251552+03:00 (in 10799.986539 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-25 17:28:55 EEST)" (scheduled at 2024-04-25 14:28:55.251552+03:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-25 17:28:55 EEST)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-04-25 18:15:22.351048+03:00 (in 10799.974597 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-25 18:15:22 EEST)" (scheduled at 2024-04-25 15:15:22.351048+03:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-25 18:15:22 EEST)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-04-25 20:28:55.251552+03:00 (in 8183.063832 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-25 20:28:55 EEST)" was missed by 0:43:36.936168
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-26 00:32:48.360429+03:00 (in 10799.998982 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-26 00:38:53.848352+03:00 (in 10799.997997 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload_medical_quiz_data/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 263, in medical_quiz_data_modification
+    answers_wb.save(answers_filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Laptop\anaconda3\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Laptop\\Downloads\\processed_answers.xlsx'
+Internal Server Error: /products/upload_medical_quiz_data/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 263, in medical_quiz_data_modification
+    answers_wb.save(answers_filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Laptop\anaconda3\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Laptop\\Downloads\\processed_answers.xlsx'
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-26 00:50:07.844430+03:00 (in 10799.997997 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload_medical_quiz_data/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 271, in medical_quiz_data_modification
+    return render(request, 'input_medical_questions.html', {
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: input_medical_questions.html
+Internal Server Error: /products/upload_medical_quiz_data/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 271, in medical_quiz_data_modification
+    return render(request, 'input_medical_questions.html', {
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: input_medical_questions.html
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-26 00:50:53.152519+03:00 (in 10799.998980 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/upload_medical_quiz_data/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 268, in medical_quiz_data_modification
+    questions_wb.save(questions_filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\workbook\workbook.py", line 392, in save
+    save_workbook(self, filename)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Laptop\anaconda3\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Laptop\\Downloads\\processed_questions.xlsx'
+Looking for jobs to run
+Next wakeup is due at 2024-04-26 11:28:55.251552+03:00 (in 7802.498039 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-26 11:28:55 EEST)" was missed by 0:49:57.502852
+Looking for jobs to run
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-26 00:50:53 EEST)" was missed by 1:02:08.337501
+Next wakeup is due at 2024-04-26 12:50:53.152519+03:00 (in 7071.661499 seconds)
+Looking for jobs to run
+Next wakeup is due at 2024-04-26 14:28:55.251552+03:00 (in 10799.983828 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-26 14:28:55 EEST)" (scheduled at 2024-04-26 11:28:55.251552+03:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-26 14:28:55 EEST)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-04-27 09:50:53.152519+03:00 (in 8855.680780 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-27 09:50:53 EEST)" was missed by 0:32:24.319220
+Looking for jobs to run
+Next wakeup is due at 2024-04-27 11:28:55.251552+03:00 (in 8855.719640 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-27 11:28:55 EEST)" was missed by 0:32:24.280360
+Looking for jobs to run
+Next wakeup is due at 2024-04-28 03:50:53.152519+03:00 (in 2075.710718 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-28 03:50:53 EEST)" was missed by 2:25:24.289282
+Looking for jobs to run
+Next wakeup is due at 2024-04-28 06:50:53.152519+03:00 (in 7225.348751 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-28 06:50:53 EEST)" was missed by 0:59:34.651249
+Looking for jobs to run
+Next wakeup is due at 2024-04-28 08:28:55.251552+03:00 (in 5701.046868 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-28 08:28:55 EEST)" was missed by 1:24:58.953132
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 09:50:53.152519+03:00 (in 5622.558266 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 09:50:53 EEST)" was missed by 1:26:17.441734
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 11:28:55.251552+03:00 (in 9222.586555 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 11:28:55 EEST)" was missed by 0:26:17.413445
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 12:50:53.152519+03:00 (in 9026.279053 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 12:50:53 EEST)" was missed by 0:29:33.721795
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 14:28:55.251552+03:00 (in 2933.664038 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 14:28:55 EEST)" was missed by 2:11:06.336893
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 17:28:55.251552+03:00 (in 10799.983546 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 17:28:55 EEST)" (scheduled at 2024-04-29 14:28:55.251552+03:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 17:28:55 EEST)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 15:50:53.152519+03:00 (in 4707.376721 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 15:50:53 EEST)" was missed by 1:41:32.623279
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 18:50:53.152519+03:00 (in 10799.982104 seconds)
+Running job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 18:50:53 EEST)" (scheduled at 2024-04-29 15:50:53.152519+03:00)
+Starting new HTTPS connection (1): graph.facebook.com:443
+https://graph.facebook.com:443 "POST /v12.0/me/messages?access_token=YOUR_PAGE_ACCESS_TOKEN HTTP/1.1" 400 117
+Job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 18:50:53 EEST)" executed successfully
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 20:28:55.251552+03:00 (in 3626.655158 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 20:28:55 EEST)" was missed by 1:59:33.344842
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 23:28:55.251552+03:00 (in 9647.196185 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 23:28:55 EEST)" was missed by 0:19:12.804815
+Looking for jobs to run
+Next wakeup is due at 2024-04-29 21:50:53.152519+03:00 (in 2473.868442 seconds)
+Run time of job "send_facebook_message (trigger: interval[3:00:00], next run at: 2024-04-29 21:50:53 EEST)" was missed by 2:18:46.131558
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\models.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\models.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:13:00.156089+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:14:46.381885+03:00 (in 10799.999009 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:15:35.547504+03:00 (in 10799.997996 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:17:01.310823+03:00 (in 10799.998585 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:18:02.467939+03:00 (in 10799.999151 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:18:19.634896+03:00 (in 10799.999004 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:18:45.948819+03:00 (in 10799.998870 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:19:11.694897+03:00 (in 10799.998002 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:20:20.714177+03:00 (in 10799.998997 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:21:16.683626+03:00 (in 10799.998995 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:28:53.935174+03:00 (in 10799.998999 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:29:04.549133+03:00 (in 10799.998940 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:31:27.563262+03:00 (in 10799.998998 seconds)
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Cancelling an overlapped future failed
+future: <_OverlappedFuture pending overlapped=<pending, 0x25157176dc0> cb=[BaseProactorEventLoop._loop_self_reading()]>
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\asyncio\windows_events.py", line 66, in _cancel_overlapped
+    self._ov.cancel()
+OSError: [WinError 6] The handle is invalid
+Using proactor: IocpProactor
+Cancelling an overlapped future failed
+future: <_OverlappedFuture pending overlapped=<pending, 0x25157176e50> cb=[BaseProactorEventLoop._loop_self_reading()]>
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\asyncio\windows_events.py", line 66, in _cancel_overlapped
+    self._ov.cancel()
+OSError: [WinError 6] The handle is invalid
+Using proactor: IocpProactor
+Cancelling an overlapped future failed
+future: <_OverlappedFuture pending overlapped=<pending, 0x25158367430> cb=[BaseProactorEventLoop._loop_self_reading()]>
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\asyncio\windows_events.py", line 66, in _cancel_overlapped
+    self._ov.cancel()
+OSError: [WinError 6] The handle is invalid
+Using proactor: IocpProactor
+Cancelling an overlapped future failed
+future: <_OverlappedFuture pending overlapped=<pending, 0x251571905e0> cb=[BaseProactorEventLoop._loop_self_reading()]>
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\asyncio\windows_events.py", line 66, in _cancel_overlapped
+    self._ov.cancel()
+OSError: [WinError 6] The handle is invalid
+Using proactor: IocpProactor
+Cancelling an overlapped future failed
+future: <_OverlappedFuture pending overlapped=<pending, 0x2515717f8b0> cb=[BaseProactorEventLoop._loop_self_reading()]>
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\asyncio\windows_events.py", line 66, in _cancel_overlapped
+    self._ov.cancel()
+OSError: [WinError 6] The handle is invalid
+Using proactor: IocpProactor
+Cancelling an overlapped future failed
+future: <_OverlappedFuture pending overlapped=<pending, 0x25158346550> cb=[BaseProactorEventLoop._loop_self_reading()]>
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\asyncio\windows_events.py", line 66, in _cancel_overlapped
+    self._ov.cancel()
+OSError: [WinError 6] The handle is invalid
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:33:49.685753+03:00 (in 10799.999301 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:33:55.371752+03:00 (in 10799.998517 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:37:58.355327+03:00 (in 10799.999044 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:38:04.592386+03:00 (in 10799.999000 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:39:00.948815+03:00 (in 10799.999000 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:39:06.042626+03:00 (in 10799.998940 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:42:17.959758+03:00 (in 10799.998995 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:42:22.902903+03:00 (in 10799.998002 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:42:38.313403+03:00 (in 10799.998936 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:42:42.887432+03:00 (in 10799.999000 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:43:53.989782+03:00 (in 10799.998998 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:43:54.923248+03:00 (in 10799.998089 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/quiz/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: products_question.quiz_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 300, in quiz
+    return render(request, 'products/quiz.html', {
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: products_question.quiz_id
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:45:18.105129+03:00 (in 10799.999124 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:45:22.745794+03:00 (in 10799.998562 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:47:55.978975+03:00 (in 10799.999001 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:48:01.870077+03:00 (in 10799.999005 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:50:59.106225+03:00 (in 10799.998955 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:51:09.210070+03:00 (in 10799.998912 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:51:45.180321+03:00 (in 10799.999001 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:55:23.294204+03:00 (in 10799.998975 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:55:50.728120+03:00 (in 10799.999000 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:56:19.880202+03:00 (in 10799.999004 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:56:23.602766+03:00 (in 10799.998998 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:57:13.910402+03:00 (in 10799.999018 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:57:36.094393+03:00 (in 10799.998997 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:58:04.784578+03:00 (in 10799.998999 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 00:58:21.885666+03:00 (in 10799.999000 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 01:00:27.231429+03:00 (in 10799.997995 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 01:00:34.288506+03:00 (in 10799.998832 seconds)
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 01:01:15.321121+03:00 (in 10799.998999 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 01:01:16.261938+03:00 (in 10799.999008 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Not Found: /media/products/orkla.png
+Using proactor: IocpProactor
+Using proactor: IocpProactor

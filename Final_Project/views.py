@@ -6,3 +6,4 @@ def home(request):
     username = request.session['name']
 
     return render(request, 'home.html', context={'username': username})
+

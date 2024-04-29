@@ -3,6 +3,18 @@ from django import forms
 from .models import Product, Comment, Hours, Project
 from tempus_dominus.widgets import DatePicker, TimePicker, DateTimePicker
 
+from .models import Document
+from django import forms
+
+class UploadFileForm(forms.Form):
+    file = forms.FileField()
+
+class DocumentForm(forms.ModelForm):
+    class Meta:
+        model = Document
+        fields = ('file', )
+
+
 class ProductForm(forms.ModelForm):
     class Meta:
         model = Product

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Quiz</title>
+</head>
+<body>
+    <h1>Random Quiz</h1>
+    <form action="{% url 'submit_random_quiz' %}" method="post">
+        {% csrf_token %}
+        {% for question in questions %}
+            <input type="hidden" name="question_ids" value="{{ question.id }}">
+            <div>
+                <h3>{{ question.question_text }}</h3>
+                {% for answer in question.answers.all %}
+                    <input type="checkbox" name="question_{{ question.id }}" value="{{ answer.id }}">
+                    <label>{{ answer.answer_text }}</label><br>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

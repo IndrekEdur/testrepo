@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+    {% block content %}
+<body>
+    <h1>Upload Medical Quiz Excel File</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload and Process</button>
+    </form>
+    {% if success %}
+        <p>File has been processed successfully!</p>
+    {% endif %}
+</body>
+    {% endblock %}

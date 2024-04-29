@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Results</title>
+    <style>
+        .correct { color: green; }
+        .incorrect { color: red; }
+    </style>
+</head>
+<style>
+    .custom-list {
+        list-style-type: none; /* Removes default bullets */
+        padding-left: 0; /* Adjust padding if needed */
+    }
+    .custom-list li {
+        /* Additional styling if needed */
+    }
+</style>
+<body>
+    <h1>Quiz Results</h1>
+    <p>Your score: {{ score }} out of {{ total }}</p>
+
+    <ul>
+        {% for result in results %}
+            <li>
+                <strong>Question:</strong> {{ result.question }}
+                    <ul class="custom-list">
+                        {% for answer in result.answers %}
+                            <li class="{% if answer.user_selected and answer.is_correct or not answer.user_selected and not answer.is_correct %}correct{% else %}incorrect{% endif %}">
+                                {% if answer.user_selected %}
+                                    ●
+                                {% else %}
+                                    ○
+                                {% endif %}
+                                {% if answer.is_correct %}
+                                    √
+                                {% else %}
+                                    X
+                                {% endif %}
+                                - {{ answer.text }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'quiz' %}">Take the Quiz Again</a>
+</body>
+</html>

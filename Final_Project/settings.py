@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-i!&bo*rqs5by#mo!w!j1%(ck5!abj_mx@^-6=-^6sa9m44h*1v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['indreke.pythonanywhere.com']
+ALLOWED_HOSTS = ['indreke.pythonanywhere.com', '127.0.0.1']
 
 LOGIN_REDIRECT_URL = '/products/list'
 
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'accounts',
     'tempus_dominus',
     'jquery',
+
 
     # 'send_email.apps.SendEmailConfig',
     # 'pdf_convert.apps.PdfConvertConfig',
@@ -166,3 +167,39 @@ EMAIL_HOST_USER = 'kjimputo@gmail.com'
 EMAIL_USER_PASSWORD = 'your gmail pass'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+
+# For FB Messenger messages
+
+CELERY_BROKER_URL = 'amqps://pkhjnrqs:4QVNhM7LG3viwvkl4kmYIUdZPggyKv2x@kangaroo.rmq.cloudamqp.com/pkhjnrqs'
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': r'C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\debug.log',
+            },
+        },
+    'loggers': {
+
+            # Add this to capture logs from your tasks module
+            'products.tasks': {
+                'handlers': ['file'],
+                'level': 'DEBUG',
+                'propagate': False,
+            },
+            'products.views': {
+                'handlers': ['file'],
+                'level': 'DEBUG',
+                'propagate': False,
+            },
+            # Root logger
+            '': {
+                'handlers': ['file'],
+                'level': 'DEBUG',
+                'propagate': True,
+            },
+        },
+    }

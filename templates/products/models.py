@@ -13,6 +13,8 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 #     def __str__(self):
 #         return self.name
 
+
+
 class Project(models.Model):
     name = models.CharField(max_length=100)
     is_active = models.BooleanField(default=True)

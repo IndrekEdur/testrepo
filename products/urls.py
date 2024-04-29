@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from . import views
+from .views import upload_articles
+from .views import medical_quiz_data_modification
+from .views import quiz_selection, random_quiz, submit_random_quiz
 
 from django.conf.urls import url
 from .views import ShowAllProducts
@@ -51,6 +54,25 @@ urlpatterns = [
  path('userHours/<int:pk>', views.WorkingHoursListView, name='working-hours'),
  path('userHoursByProject/<int:pk>', views.WorkingHoursListByProjectsView, name='working-hours-by-projects'),
  path('userHoursList/<int:pk>', views.UserHoursListView, name='hours_list_of_user'),
+
+ path('quiz/', views.quiz, name='quiz'),
+
+ path('submit_quiz/', views.submit_quiz, name='submit_quiz'),  # URL for form submission
+ path('quiz-results/', views.quiz_results, name='quiz_results'),
+ path('quiz/<int:group>/', views.quiz, name='quiz_group'),
+
+ path('random-quiz/', views.random_quiz, name='random_quiz'),
+ path('submit-random-quiz/', views.submit_random_quiz, name='submit_random_quiz'),  # URL for form submission
+ path('quizzes/', quiz_selection, name='quiz_selection'),
+ path('quizzes/<int:quiz_id>/', random_quiz, name='random_quiz'),
+ path('quizzes/<int:quiz_id>/submit/', submit_random_quiz, name='submit_random_quiz'),
+
+
+ path('send-message/', views.send_messenger_message, name='send-message'),
+ path('upload/', views.process_and_match_articles, name='process_and_match_articles'),
+ path('upload-articles/', upload_articles, name='upload-articles'),
+ path('upload_medical_quiz_data/', views.medical_quiz_data_modification, name='medical-quiz-modification'),
+
 
  url(r'^', views.ShowAllProducts, name='product-list'),
 ]
