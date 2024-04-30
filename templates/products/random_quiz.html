@@ -5,9 +5,10 @@
 </head>
 <body>
     <h1>Random Quiz</h1>
-    <form action="{% url 'submit_random_quiz' %}" method="post">
+    <form action="{% url 'submit_random_quiz' quiz_id=quiz_id %}" method="post">
         {% csrf_token %}
         {% for question in questions %}
+            <!-- Assuming each question is linked to a specific quiz and quiz_id is available in the template context -->
             <input type="hidden" name="question_ids" value="{{ question.id }}">
             <div>
                 <h3>{{ question.question_text }}</h3>

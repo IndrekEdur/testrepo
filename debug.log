@@ -2888,3 +2888,286 @@ Test log message
 Not Found: /media/products/orkla.png
 Using proactor: IocpProactor
 Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 10:32:57.921937+03:00 (in 10799.999000 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 10:32:58.928357+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/submit-random-quiz/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: submit_random_quiz() missing 1 required positional argument: 'quiz_id'
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 10:42:45.463739+03:00 (in 10799.999079 seconds)
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 10:42:46.532949+03:00 (in 10799.997994 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/submit-random-quiz/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: submit_random_quiz() missing 1 required positional argument: 'quiz_id'
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 10:44:04.261701+03:00 (in 10800.000000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 10:54:54.255649+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 10:57:41.342732+03:00 (in 10799.999000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 10:57:59.552852+03:00 (in 10799.999280 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/quiz/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 300, in quiz
+    return render(request, 'products/quiz.html', {
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'submit_quiz' not found. 'submit_quiz' is not a valid view function or pattern name.
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 10:59:20.340165+03:00 (in 10799.998843 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 11:01:31.180368+03:00 (in 10799.993481 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 11:03:11.057154+03:00 (in 10799.998975 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 11:04:58.345299+03:00 (in 10800.000000 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 11:06:24.701376+03:00 (in 10799.998998 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\urls.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 11:07:00.911402+03:00 (in 10799.995998 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 11:11:02.682545+03:00 (in 10799.998999 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Internal Server Error: /products/quiz/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 301, in quiz
+    return render(request, 'products/quiz.html', {
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'submit_quiz' not found. 'submit_quiz' is not a valid view function or pattern name.
+Internal Server Error: /products/quiz/
+Traceback (most recent call last):
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Laptop\Dropbox\Python stuff\ERLIN\Final_Project\products\views.py", line 301, in quiz
+    return render(request, 'products/quiz.html', {
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Laptop\anaconda3\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'submit_quiz' not found. 'submit_quiz' is not a valid view function or pattern name.
+C:\Users\Laptop\ERLIN Dropbox\Indrek Edur\Python stuff\ERLIN\Final_Project\products\views.py changed, reloading.
+Using proactor: IocpProactor
+Test log message from tasks
+Looking up time zone info from registry
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "send_facebook_message" to job store "default"
+Scheduler started
+Looking for jobs to run
+Next wakeup is due at 2024-04-30 12:23:41.940614+03:00 (in 10799.999016 seconds)
+Watching for file changes with StatReloader
+Test log message from my_views
+Test log message
+Using proactor: IocpProactor
+Using proactor: IocpProactor

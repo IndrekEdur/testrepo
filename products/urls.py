@@ -57,15 +57,15 @@ urlpatterns = [
 
  path('quiz/', views.quiz, name='quiz'),
 
- path('submit_quiz/', views.submit_quiz, name='submit_quiz'),  # URL for form submission
+ # path('submit_quiz/', views.submit_quiz, name='submit_quiz'),  # URL for form submission
  path('quiz-results/', views.quiz_results, name='quiz_results'),
  path('quiz/<int:group>/', views.quiz, name='quiz_group'),
 
  path('random-quiz/', views.random_quiz, name='random_quiz'),
- path('submit-random-quiz/', views.submit_random_quiz, name='submit_random_quiz'),  # URL for form submission
- path('quizzes/', quiz_selection, name='quiz_selection'),
- path('quizzes/<int:quiz_id>/', random_quiz, name='random_quiz'),
- path('quizzes/<int:quiz_id>/submit/', submit_random_quiz, name='submit_random_quiz'),
+ path('submit-random-quiz/<int:quiz_id>/', views.submit_random_quiz, name='submit_random_quiz'),
+ path('quizzes/', views.quiz_selection, name='quiz_selection'),
+ path('quizzes/<int:quiz_id>/', views.random_quiz, name='random_quiz'),
+ path('quizzes/<int:quiz_id>/submit/', views.submit_random_quiz, name='submit_random_quiz'),
 
 
  path('send-message/', views.send_messenger_message, name='send-message'),

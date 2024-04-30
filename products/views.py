@@ -226,6 +226,7 @@ from openpyxl import Workbook
 import openpyxl
 from django.shortcuts import render, get_object_or_404
 
+
 def medical_quiz_data_modification(request):
     if request.method == 'POST':
         form = DocumentForm(request.POST, request.FILES)
@@ -283,11 +284,12 @@ def medical_quiz_data_modification(request):
 
 
 
-
 class ProductListView(ListView):
     model = Product
     template_name = 'products/product_list.html'
     context_object_name = 'products'
+
+
 
 def quiz(request, group=1):
     questions_per_group = 20
@@ -313,7 +315,6 @@ def random_quiz(request, quiz_id):
     questions = list(quiz.questions.all())
     random_questions = random.sample(questions, min(total_questions, len(questions)))
     return render(request, 'products/random_quiz.html', {'questions': random_questions, 'quiz_id': quiz_id})
-
 
 def submit_random_quiz(request, quiz_id):
     if request.method == 'POST':
@@ -350,8 +351,8 @@ def submit_random_quiz(request, quiz_id):
             'score': score,
             'total': len(questions)
         }
-        return render(request, 'products/quiz_results.html', {'quiz_id': quiz_id})
-
+        # Correct the call to render by passing the context as the third argument
+        return render(request, 'products/quiz_results.html', context)
 
 def submit_quiz(request):
     if request.method == 'POST':
